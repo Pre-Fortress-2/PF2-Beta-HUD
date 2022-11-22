@@ -1,0 +1,67 @@
+"Resource/UI/HudDemomanPipes.res"
+{
+	"PipesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PipesPresentPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"	
+		
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"xpos"			"3"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"55"
+			"tall"			"40"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"south-west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"HudNumbers"
+		}	
+	}
+	
+	"NoPipesPresentPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NoPipesPresentPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"NumPipesLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"NumPipesLabel"
+			"xpos"			"3"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"55"
+			"tall"			"40"
+			"autoResize"	"1"
+			"pinCorner"		"2"
+			"visible"		"1"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"labelText"		"%activepipes%"
+			"textAlignment"	"south-west"
+			"dulltext"		"1"
+			"brighttext"	"0"
+			"font"			"HudNumbers"
+		}			
+	}				
+}

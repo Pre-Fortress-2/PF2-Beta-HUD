@@ -1,0 +1,43 @@
+"Resource/UI/HudMedicCharge.res"
+{	
+	"ChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"3"
+		"ypos"			"14"
+		"zpos"			"2"
+		"wide"			"86"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Ubercharge"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"HudFontSmall"
+	}
+	
+	"ChargeMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Default"
+		"xpos"			"3"
+		"ypos"			"28"
+		"zpos"			"2"
+		"wide"			"86"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}	
+}
