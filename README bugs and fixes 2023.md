@@ -8,6 +8,7 @@ List of known bugs/broken stuff:
 -Armor icon doesn't turn red once nearing a low value, may be related to the hudanimations_tf.txt
 -Color inconsistencies in various elements and panels
 -Vote HUD hasn't been fixed, too lazy.
+-MOTD Screen text panel stretches out and leaves the Main panel area, too lazy to fix.
 
 Apologies for releasing this in such a broken state, I just want to work on something else, anyone is free to edit this hud or fix it of course. Sorry!
 
