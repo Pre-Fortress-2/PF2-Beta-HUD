@@ -364,4 +364,348 @@
 		"armedBgColor_override" 	"Button.ArmedBgColor"
 		"depressedBgColor_override" "Button.DepressedBgColor"
 	}
+	"countImage0" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage0"
+		"xpos"			"c20"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}							
+	
+	"countImage1" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage1"
+		"xpos"			"c45"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage2" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"c70"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage3" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage3"
+		"xpos"			"c95"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage4" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"c120"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage5" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage5"
+		"xpos"			"c145"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage6" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage6"
+		"xpos"			"c170"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage7" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage7"
+		"xpos"			"c195"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage8" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage8"
+		"xpos"			"c220"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage9" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage9"
+		"xpos"			"c245"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage10" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage10"
+		"xpos"			"c270"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	"numScout" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numScout"
+		"xpos"			"c-300"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numScout%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}	
+	
+	"numSoldier" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSoldier"
+		"xpos"			"c-250"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numSoldier%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}		
+	
+	"numPyro" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numPyro"
+		"xpos"			"c-200"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numPyro%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}			
+	
+	"numDemoman" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numDemoman"
+		"xpos"			"c-110"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numDemoman%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}				
+	
+	"numHeavy" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numHeavy"
+		"xpos"			"c-60"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numHeavy%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}					
+	
+	"numEngineer" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numEngineer"
+		"xpos"			"c-10"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numEngineer%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}						
+	
+	"numMedic" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numMedic"
+		"xpos"			"c78"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numMedic%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}							
+	
+	"numSniper" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSniper"
+		"xpos"			"c128"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numSniper%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}						
+	
+	"numSpy" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSpy"
+		"xpos"			"c178"
+		"ypos"			"10"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		"%numSpy%"
+		"textAlignment"	"center"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanLight"
+	}								
+
 }

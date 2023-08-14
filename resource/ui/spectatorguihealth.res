@@ -27,7 +27,20 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}
-	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"3"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -46,6 +59,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"SpectatorVerySmall"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"white"
 	}							
 }

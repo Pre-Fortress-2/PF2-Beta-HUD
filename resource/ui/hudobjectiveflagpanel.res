@@ -17,7 +17,6 @@
 			"zpos"	"-1"
 		}
 	}
-
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -95,9 +94,8 @@
 		"teambg_3"		"../hud/objectives_flagpanel_carried_red"
 		"bgcolor_override"	"255 255 255 255"
 	}	
-
-
-	"CompassBG"
+	
+	"PlayingToBG"	
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CompassBG"
@@ -108,8 +106,8 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image"			"../hud/beta_flag_hud/objectives_flagpanel_compass_bg"
+
 		"scaleImage"	"1"
 		
 		"if_hybrid"
@@ -119,13 +117,13 @@
 	}		
 	"BlueFlag"
 	{
-		"ControlName"	"CTFArrowPanel"
+		"ControlName"	"CPFArrowPanel"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-40"
-		"ypos"			"r76"
+		"xpos"			"cs-0.5"
+		"ypos"			"r64"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"190"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -136,30 +134,30 @@
 	}		
 	"RedFlag"
 	{
-		"ControlName"	"CTFArrowPanel"
+		"ControlName"	"CPFArrowPanel"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-40"
-		"ypos"			"r76"
+		"xpos"			"cs-0.5"
+		"ypos"			"r62"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"190"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"if_hybrid"
 		{
-			"ypos"	"r110"
+			"ypos"	"r95"
 		}
 	}			
 	"CaptureFlag"
 	{
-		"ControlName"	"CTFArrowPanel"
+		"ControlName"	"CPFArrowPanel"
 		"fieldName"		"CaptureFlag"
-		"xpos"			"c-40"
-		"ypos"			"r76"
+		"xpos"			"cs-0.5"
+		"ypos"			"r70"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"80"
+		"wide"			"190"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		

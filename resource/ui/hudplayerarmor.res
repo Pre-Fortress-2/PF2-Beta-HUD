@@ -27,6 +27,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+	}
+	"PlayerStatusArmorWarningImage"
+	{
+		"ControlName"	"CTFArmorPanel"
+		"fieldName"		"PlayerStatusArmorWarningImage"
+		"xpos"			"105"
+		"ypos"			"66"
+		"zpos"			"6"
+		"wide"			"34"
+		"tall"			"34"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"		
 	}		
 	"PlayerStatusArmorImageBG"
 	{
