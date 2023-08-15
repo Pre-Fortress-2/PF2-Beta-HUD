@@ -159,6 +159,10 @@ Scheme
 
 		ProgressBar.FgColor				"Orange"
 		ProgressBar.BgColor				"TransparentBlack"
+		
+		"BuildingHealthBar.BgColor"		"HealthBgGrey"
+		"BuildingHealthBar.Health"		"ProgressOffWhite"
+		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
 		PropertySheet.TextColor			"Orange"
 		PropertySheet.SelectedTextColor	"Orange"
@@ -223,9 +227,9 @@ Scheme
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
-		"team0"			"204 204 204 255" // Spectators
-		"team1"			"255 64 64 255" // CT's
-		"team2"			"153 204 255 255" // T's
+		"TeamSpec"			"204 204 204 255" // Spectators
+		"TeamRed"			"255 64 64 255" // CT's
+		"TeamBlue"			"153 204 255 255" // T's
 
 		"MapDescriptionText"	"Orange" // the text used in the map description window
 		"CT_Blue"			"153 204 255 255"
@@ -977,6 +981,18 @@ Scheme
 				"yres"	"1200 10000"
 			}
 		}
+		"HudFontSmallBold"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		HudNumbersSmall
 		{
 			"1"

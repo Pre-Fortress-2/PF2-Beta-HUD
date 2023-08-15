@@ -2,7 +2,7 @@
 {
 	"PlayerStatusArmorImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFArmorPanel"
 		"fieldName"		"PlayerStatusArmorImage"
 		"xpos"			"7"
 		"ypos"			"7"
@@ -12,6 +12,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+	}
+	"PlayerStatusArmorWarningImage"
+	{
+		"ControlName"	"CTFArmorPanel"
+		"fieldName"		"PlayerStatusArmorWarningImage"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"4"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"
 	}		
 	"PlayerStatusArmorImageBG"
 	{
@@ -19,13 +32,13 @@
 		"fieldName"		"PlayerStatusArmorImageBG"
 		"xpos"			"7"
 		"ypos"			"7"
-		"zpos"			"3"
+		"zpos"			"4"
 		"wide"			"18"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/armor_light_bg"
-		"scaleImage"	"1"	
+		"drawcolor_override"	"75 72 72 255"
+		"scaleImage"	"1"
 	}
 	"PlayerStatusArmorValue"
 	{

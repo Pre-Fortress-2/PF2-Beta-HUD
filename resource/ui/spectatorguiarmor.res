@@ -2,7 +2,7 @@
 {
 	"PlayerStatusArmorImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusArmorImage"
 		"xpos"			"7"
 		"ypos"			"7"
@@ -14,7 +14,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}	
+	"PlayerStatusArmorWarningImage"
+	{
+		"ControlName"	"CTFArmorPanel"
+		"fieldName"		"PlayerStatusArmorWarningImage"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"4"
+		"wide"			"0"
+		"wide_minmode"	"14"
+		"tall"			"0"
+		"tall_minmode"	"14"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+			
 	"PlayerStatusArmorImageBG"
 	{
 		"ControlName"	"ImagePanel"

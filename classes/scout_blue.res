@@ -23,7 +23,7 @@
 
 			"animation"
 			{
-				"sequence"		"Run_PRIMARY"
+				"sequence"		"Run_ITEM1"
 				"pose_parameters"
 				{
 					"move_x" "1.0"

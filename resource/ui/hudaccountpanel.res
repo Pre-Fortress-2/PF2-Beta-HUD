@@ -15,10 +15,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"10"
-		"ypos"			"112"
+		"xpos"			"-74"
+		"ypos"			"92"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"155"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"

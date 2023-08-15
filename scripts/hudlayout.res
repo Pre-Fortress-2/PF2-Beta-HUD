@@ -33,6 +33,35 @@
 		"tall"	"65"
 	}
 	
+	HudKothTimeStatus
+	{
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c-100"
+		"ypos"	"0"
+		"wide"	"200"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"16"
+		"blue_active_xpos_minmode"	"55"
+	
+		"red_active_xpos"			"106"
+		"red_active_xpos_minmode"	"105"
+	}
+	
+	HudGrenadeAmmoRegen
+	{
+		"fieldName" "HudGrenadeAmmoRegen"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"r99"
+		"ypos"	"r84"
+		"wide"	"90"
+		"tall"	"84"
+		//"bgcolor_override"	"255 0 0 0"
+	}
+	
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -42,19 +71,8 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
-	
-	HudDetpackConstruction
-	{
-		"fieldName" "HudDetpackConstruction"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-	}	
-	
+	}
+		
 	HudPlayerConditions
 	{
 		"fieldName" "HudPlayerConditions"
@@ -103,6 +121,20 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
+	HudPyroCharge
+	{
+		"fieldName"		"HudPyroCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r164"
+		"ypos"			"r41"
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"63"
+		"wide_minmode"	"50"
+		"tall"			"8"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}	
 
 	HudWeaponSelection
 	{
@@ -142,29 +174,78 @@
 		"NumberFont" "HudSelectionNumbers"
 	}	
 	
-	HudAccount
+	HudTFCrosshair
 	{
-		"fieldName"				"HudAccount"
-		"xpos"					"r224"
-		"ypos"					"r148"
-		"wide"					"100"
+		"fieldName" "HudTFCrosshair"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+	}
+	
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"r162"	[$WIN32]
+		"ypos"					"r152"	[$WIN32]
+		"ypos_minmode"			"r134"	[$WIN32]
+		"xpos"					"r194"	[$X360]
+		"ypos"					"r174"	[$X360]
+		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
 	
+	CHealthAccountPanel
+	{
+		"fieldName"				"CHealthAccountPanel"
+		"xpos"					"76"
+		"xpos_minmode"			"61"
+		"ypos"					"r152"
+		"ypos_minmode"			"r134"
+		"wide"					"116"
+		"tall"  				"180"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+	
+	CArmorAccountPanel
+	{
+		"fieldName"				"CArmorAccountPanel"
+		"xpos"					"76"
+		"xpos_minmode"			"61"
+		"ypos"					"r152"
+		"ypos_minmode"			"r134"
+		"wide"					"116"
+		"tall"  				"180"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+	
+	CDamageAccountPanel
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
-		"ypos"		"380"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"350"	[$X360]
-		"wide"		"640"
-		"tall"		"40"
+		"ypos"		"r110"	[$WIN32]
+		"wide"		"500"
+		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
 	}
 
@@ -379,6 +460,14 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
+	HudPFGrenadeTimer
+	{
+		"fieldName" "HudPFGrenadeTimer"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+	}
 
 	HudDeathNotice
 	{
@@ -405,7 +494,6 @@
 		"TeamRed"		"255 64 64 255"
 		"IconColor"		"White"
 		"LocalPlayerColor"	"White"
-		"enabled"		"1"
 
 		"BaseBackgroundColor"	"46 43 42 0"
 		"LocalBackgroundColor"	"245 229 196 0"
@@ -746,6 +834,16 @@
 		"tall"					"200"
 	}
 
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-225"
+		"ypos"					"250"
+		"wide"					"450"
+		"tall"					"218"
+	}
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
@@ -777,7 +875,7 @@
 		"fieldName"				"FreezePanelCallout"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"200"
+		"xpos"					"100"
 		"ypos"					"200"
 		"wide"					"100"
 		"tall"					"50"
@@ -847,18 +945,6 @@
 		"PaintBackgroundType"	"0"
 	}	
 	
-	"HudMenuDetpackBuild"
-	{
-		"fieldName" 	"HudMenuDetpackBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c-55"
-		"wide"			"350"
-		"tall"			"195"
-		"PaintBackgroundType"	"0"
-	}
-	
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
@@ -895,6 +981,30 @@
 		"tall"					"100"
 	}
 
+	HudArenaNotification
+	{
+		"fieldName"				"HudArenaNotification"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"c-160"
+		"ypos"					"75"
+		"ypos_hidef"				"90"
+		"ypos_lodef"				"90"
+		"wide"					"320"
+		"tall"					"150"
+	}
+
+	HudArenaCapPointCountdown
+	{
+		"fieldName"				"HudArenaCapPointCountdown"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-15"
+		"ypos"					"442"
+		"wide"					"30"
+		"tall"					"30"
+		"zpos"					"99"
+	}
 	HudStalemate
 	{
 		"fieldName"				"HudStalemate"
@@ -928,6 +1038,39 @@
 		"wide"					"f10"	[$WIN32]
 		"wide"					"f60"	[$X360]
 		"tall"					"100"
+	}
+	
+	HudArenaClassLayout [$WIN32]
+	{
+		"fieldName"				"HudArenaClassLayout"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"r320"
+		"wide"					"f0"
+		"tall"					"320"
+	}
+	
+	HudArenaVsPanel [$WIN32]
+	{
+		"fieldName"				"HudArenaVsPanel"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"240"
+		"wide"					"f0"
+		"tall"					"240"
+	}
+	
+	HudArenaPlayerCount [$WIN32]
+	{
+		"fieldName"				"HudArenaPlayerCount"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"50"
 	}
 	
 	CDamageAccountPanel

@@ -228,10 +228,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthValue 	FgColor	"Caution" Linear 0.0 0.15
 	Animate	PlayerStatusHealthImageBG 	Alpha	"0" Linear 0.0 0.0001
 	Animate	PlayerStatusHealthImageBGRed 	Alpha	"255" Linear 0.0 0.0001
-	Animate	PlayerStatusHealthValue 	Alpha	"192" Linear 0.2 2.0
 }
 
 // call to loop HudHealthDyingPulse
@@ -243,8 +241,6 @@ event HudHealthDyingPulseLoop
 event HudHealthDyingPulseStop
 {
 	Animate	PlayerStatusHealthImageBG 	BgColor	"BgColor" Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue 	FgColor	"Yellow" 	Linear 0.0 0.0001
-	Animate	PlayerStatusHealthValue 	Alpha	"255"		Linear 0.0 0.0001
 	Animate	PlayerStatusHealthImageBG 	Alpha	"255" Linear 0.0 0.0001
 	Animate	PlayerStatusHealthImageBGRed 	Alpha	"0" Linear 0.0 0.0001
 
@@ -269,7 +265,7 @@ event HudArmorDyingPulseLoop
 	RunEvent HudArmorDyingPulse 0.0
 }
 
-event HudHealthDyingPulseStop
+event HudArmorDyingPulseStop
 {
 	StopEvent HudArmorDyingPulse 0.0
 	StopEvent HudArmorDyingPulseLoop 0.0
@@ -429,4 +425,53 @@ event VideoCaptionFadeIn
 event VideoCaptionFadeOut
 {
 	Animate VideoCaption	Alpha		"0"				Linear 0.0 0.1
+}
+//===========================================
+
+// arena
+
+event ArenaVsPanelOnShow
+{
+	Animate bluepanel	Position	"-200 50"	Linear 0.0 0.001
+	Animate redpanel	Position	"r-200 140"	Linear 0.0 0.001
+	Animate vslabel	Alpha	"0"		Linear 0.0 0.001
+		
+	RunEvent ArenaVsPanelSlideIn	1.0
+	RunEvent ArenaVsPanelSlideOut	4.8
+}
+
+event ArenaVsPanelSlideIn
+{
+	Animate bluepanel	Position	"c-100 50"	Spline 0.0 0.2
+	Animate redpanel	Position	"c-100 140"	Spline 0.0 0.2
+	Animate vslabel	Alpha	"255"	Linear 0.15 0.2
+}
+
+event ArenaVsPanelSlideOut
+{
+	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2	
+	Animate redpanel	Position	"r-200 140"	Spline 0.0 0.2
+	Animate vslabel	Alpha	"0"		Linear 0.0 0.05
+}
+
+//===========================================
+
+//Cart Alarm Pulse
+event HudCartAlarmPulse
+{
+	Animate	EscortItemImageAlert 	Alpha		"160"		Linear 0.0 0.3
+	Animate	EscortItemImageAlert 	Alpha		"0"		Linear 0.6 0.3
+	
+	RunEvent HudCartAlarmPulseLoop	1.2
+}
+
+event HudCartAlarmPulseLoop
+{
+	RunEvent HudCartAlarmPulse 0.0
+}
+
+event HudCartAlarmPulseStop
+{
+	StopEvent HudCartAlarmPulse 0.0
+	StopEvent HudCartAlarmPulseLoop 0.0
 }
