@@ -98,9 +98,9 @@
 	"PlayingToBG"	
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"CompassBG"
+		"fieldName"		"PlayingToBG"
 		"xpos"			"c-95"
-		"ypos"			"r60"
+		"ypos"			"r70"
 		"zpos"			"3"
 		"wide"			"190"
 		"tall"			"50"
@@ -120,7 +120,7 @@
 		"ControlName"	"CPFArrowPanel"
 		"fieldName"		"BlueFlag"
 		"xpos"			"cs-0.5"
-		"ypos"			"r64"
+		"ypos"			"r70"
 		"zpos"			"5"
 		"wide"			"190"
 		"tall"			"50"
@@ -129,7 +129,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"	"r110"
+			"ypos"	"r95"
 		}
 	}		
 	"RedFlag"
@@ -137,7 +137,7 @@
 		"ControlName"	"CPFArrowPanel"
 		"fieldName"		"RedFlag"
 		"xpos"			"cs-0.5"
-		"ypos"			"r62"
+		"ypos"			"r70"
 		"zpos"			"5"
 		"wide"			"190"
 		"tall"			"50"
@@ -163,7 +163,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"	"r110"
+			"ypos"	"r95"
 		}
 	}
 	"SpecCarriedImage"
